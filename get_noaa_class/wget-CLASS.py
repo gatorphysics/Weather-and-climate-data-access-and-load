@@ -1,3 +1,5 @@
+## Please replace the https link with the link provided by the NOAA CLASS order
+
 from bs4 import BeautifulSoup
 import urllib.request
 import os
