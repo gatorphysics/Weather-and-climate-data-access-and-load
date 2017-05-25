@@ -1,5 +1,8 @@
 ecmwfapi ---- python library from https://software.ecmwf.int/wiki/download/attachments/56664858/ecmwf-api-client-python.tgz
 
+You need to obtain key from ECMWF website.If you don't have an account, please self register at https://apps.ecmwf.int/registration/ and then go to the steps below.Login https://apps.ecmwf.int/auth/login/.Retrieve you key at https://api.ecmwf.int/v1/key/
+and paste the key information in the file $HOME/.ecmwfapirc
+
 get_ecmwf_interim.py  --- python code that can be used to download land-sea mask, surface pressure, near-surface temperature, wind speed,total column water propeties
 
 get_ecmwf_interim_pres.py -- python code that can be used to download temperature, water vapor, ozone, cloud water, cloud cover properties
